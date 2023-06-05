@@ -6,7 +6,7 @@ if(!isset($_GET["id"]) || $_GET["id"]==""){
   exit("ParamError!");
 }else{
   $id = intval($_GET["id"]); //intval数値変換
-  echo $id;
+  // echo $id;
 }
 
 //1.  DB接続します
